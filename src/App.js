@@ -5,6 +5,7 @@ import ButtonGroup from './components/ButtonGroup';
 
 class App extends Component {    
   render() {
+    console.log(store.getState())
     return (
       <div className='outer-container'>
         <HelloWorld tech={store.getState().tech} />
